@@ -395,12 +395,21 @@ body {
     margin-top: -5rem;
   }
 
+  .footer-container .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+
   .vision-image-logo {
     width: 100%;
     padding: 0px 5%;
   }
 }
-@media (max-width: 770px) and (min-width: 768px) {
+@media (max-width: 1020px) and (min-width: 768px) {
   body {
     margin: 0px;
   }
