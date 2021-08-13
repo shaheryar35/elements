@@ -525,8 +525,11 @@ body {
   }
 }
 @media screen and (min-width: 1600px) {
-  body {
+  /* body {
     margin-left: 5%;
     margin-right: 5%;
+  } */
+  .main-container {
+    margin: 0% 5%;
   }
 }
